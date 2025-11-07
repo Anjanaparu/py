@@ -6,7 +6,7 @@ class Rectangle:
         a=self.length*self.breadth
         print("Area of rectangle with length",self.length,"and breadth",self.breadth,"is: ",a)
     def perimeter(self):
-        p=2(self.length+self.breadth)
+        p=2*(self.length+self.breadth)
         print("Perimeter of Rectangle with length",self.length,"and breadth",self.breadth,"is: ",p)
 ch=0
 i=int(input("Enter the length of rectangle:"))
@@ -19,7 +19,7 @@ while ch!=3:
     print("3.Exit")
     ch=int(input("Enter your choice:"))
     if ch==1:obj.area()
-    if ch==2:obj.perimeter ()
+    if ch==2:obj.perimeter()
     else:print("end of the program")
 
     
